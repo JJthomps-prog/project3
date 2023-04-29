@@ -3,11 +3,11 @@ Yuehan Qin yqin18@stevens.edu,
 https://github.com/JJthomps-prog/project3.git.  
 # an estimate of how many hours you spent on the project
 40 hours
-# a description of how you tested your code
+# a description of how to tested the code
 Overall: run test.sh.  
 For Baseline: we test our codes with forum_multiple_posts.postman_collection.json,forum_post_read_delete.postman_collection.json.  
 For Date- and time-based range queries: we test our codes with search.json.   
-# any bugs or issues you could not resolve
+# any bugs or issues could not resolve
 
 # an example of a difficult issue or bug and how you resolved
 We need to convert datetime to ISO 8601 format at first.   
