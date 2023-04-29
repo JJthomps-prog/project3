@@ -1,4 +1,4 @@
-Yuehan Qin yqin18@stevens.edu, 
+Yuehan Qin yqin18@stevens.edu,Zhengyuan Han zhan24@stevens.edu 
 # the URL of your public GitHub repo
 https://github.com/JJthomps-prog/project3.git.  
 # an estimate of how many hours you spent on the project
