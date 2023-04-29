@@ -2,7 +2,7 @@ Yuehan Qin yqin18@stevens.edu,
 # the URL of your public GitHub repo
 https://github.com/JJthomps-prog/project3.git.  
 # an estimate of how many hours you spent on the project
-20 hours baseline,Date and time extension Yuehan Qin,
+40 hours
 # a description of how you tested your code
 Overall: run test.sh.  
 For Baseline: we test our codes with forum_multiple_posts.postman_collection.json,forum_post_read_delete.postman_collection.json.  
