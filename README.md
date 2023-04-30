@@ -34,3 +34,7 @@ Date- and time-based range queries:To tell wheather it is valid start time and e
 1. Create a user and use this user post two messages with the user's info, we expect the result codes are 200.
 2. Read messages by author's username and return a list of message info, including msg, time, and author, we expect the result code is 200 and the return list is correct.
 
+"Fulltext search":
+1. Create two users and use them post three messges.
+2. Search message by text, if a message include the text, return it.
+3. We expect the result code is 200 and the return list is correct.
