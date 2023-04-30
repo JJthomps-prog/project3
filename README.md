@@ -7,6 +7,9 @@ https://github.com/JJthomps-prog/project3.git.
 Overall: run test.sh.  
 For Baseline: we test our codes with forum_multiple_posts.postman_collection.json,forum_post_read_delete.postman_collection.json.  
 For Date- and time-based range queries: we test our codes with search.json.   
+For "Users and user keys" and "User profiles": we test our codes with user.postman_collection.json and user_info.postman_environment.json.  
+For "User-based range queries": we test our codes with User-based_range_queries.postman_collection.json and user_info.postman_environment.json.  
+For "Fulltext search": we test our codes with fulltext_search.postman_collection.json and user_info.postman_environment.json.  
 # any bugs or issues could not resolve
 
 # an example of a difficult issue or bug and how you resolved
