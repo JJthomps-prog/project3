@@ -22,3 +22,15 @@ User-based range queries.
 Fulltext search.  
 # detailed summaries of your tests for each of your extensions
 Date- and time-based range queries:To tell wheather it is valid start time and end time, if the start time is after the end time it raise an error, if the user didn't provide the time, it raise an error.  
+
+"Users and user keys" and "User profiles":  
+1. Create two users and return their id, keys, usernames, and realnames, we expect the result codes are 200.
+2. Create a user with null username and another user with a repeat username, we expect the result codes are 400.
+3. Read users' info by id and name, we expect the result codes are 200 and returning correct user info.
+4. Edit user info by user key, we expect the result code is 200.
+5. Read the user's info again after editting, we expect the result code is 200 and returning correct user info.
+
+"User-based range queries":
+1. Create a user and use this user post two messages with the user's info, we expect the result codes are 200.
+2. Read messages by author's username and return a list of message info, including msg, time, and author, we expect the result code is 200 and the return list is correct.
+
