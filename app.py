@@ -109,6 +109,10 @@ def search_posts():
             post_time = datetime.datetime.fromisoformat(post["timestamp"])
             if (not start_time or post_time >= start_time) and (post_time <= end_time):
                 results.append(post)
+        for post in posts2:
+            post_time = datetime.datetime.fromisoformat(post["timestamp"])
+            if (not start_time or post_time >= start_time) and (post_time <= end_time):
+                results.append(post)
 
     # return list of matching posts
     return jsonify(results)
